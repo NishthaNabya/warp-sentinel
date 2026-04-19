@@ -1,4 +1,4 @@
-# Sentinel — AI terminal safety gate
+# Sentinel - AI terminal safety gate
 
 I built Sentinel as a tiny Go CLI that sits in front of sensitive terminal workflows (deploy scripts, production shells, anything I don’t want an agent to run blind). It doesn’t replace your monitoring stack or your judgment; it gives me a **repeatable hook**: run a health signal, drop structured context where an LLM can see it, and **stop the chain** if a simple rule says the environment looks unsafe.
 
@@ -124,4 +124,4 @@ I don’t distinguish “denied” vs “write error” by exit code today—if 
 
 ## License / intent
 
-I’m sharing this as a small, honest building block: **one hook, clear scope, no mystery.** If something here feels underspecified, that’s usually where I’d plug in **my** infrastructure—not where the template pretends to already know it.
+I’m sharing this as a small, honest building block: **one hook, clear scope, no mystery.** If something here feels underspecified, that’s usually where I’d plug in **my** infrastructure, not where the template pretends to already know it.
