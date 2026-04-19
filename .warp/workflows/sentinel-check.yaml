@@ -1,0 +1,6 @@
+name: Deploy Payments Service (Protected)
+command: ./sentinel && echo "🚀 System Nominal. Initiating deployment sequence..."
+tags:
+  - production
+  - deployment
+description: Runs the Sentinel safety check before allowing a production deployment.

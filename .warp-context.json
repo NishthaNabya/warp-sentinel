@@ -1,0 +1,7 @@
+{
+  "Env": "staging",
+  "ErrorRate": 0.02,
+  "OnCall": "Nishtha",
+  "SafetyStatus": "OK",
+  "Message": "All clear"
+}
